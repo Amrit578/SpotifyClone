@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: black;
+    padding: 5px;
+}
+nav ul {
+   display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.img img{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    padding: 0 8px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    font-family: 'Verela Round', sans-serif;
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('/mainImage/headphones_black_dark_193710_938x1668.jpg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 700px;
+    font-family: 'Verela Round', sans-serif;
+}
+.bottom{
+   position: sticky;
+   height: 130px;
+   background-color: black;
+   bottom: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   flex-direction: column;
+   margin: 0;
+}
+
+#myProgressBar{
+    width: 90vw;
+    cursor: pointer;
+}
+.icon{
+    margin: 5px 0;
+    
+}
+.icon i {
+    cursor: pointer;
+}
+.songItem{
+        height: 50px;
+        display: flex;
+        background-color: white;
+        color: black;
+        margin: 12px 0;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 34px;
+        width: 500px;
+}
+
+
+.songItem img{
+    width: 43px;
+    margin: 0 5px;
+    border-radius: 34px;
+}
+.timeStamp{
+    font-size: 15px;
+    margin: 0 5px;
+    
+}
+.songName{
+    font-size: 15px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+    margin-bottom: 40px;
+}
+.songInfo img{
+    width : 42px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songInfo{
+    position :absolute;
+    left: 10vw;
+    font-family: 'Verela Round', sans-serif;
+}
