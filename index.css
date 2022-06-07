@@ -17,6 +17,11 @@ nav ul {
 }
 nav ul li{
     padding: 0 12px;
+    font-size: 18px;
+    font-family: 'Verela Round', sans-serif;
+}
+nav li :hover{
+    color: hotpink
 }
 a{
     color: white;
@@ -32,7 +37,8 @@ a{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    margin: 0 2px;
+    font-size: 2rem;
 }
 .container{
     font-family: 'Verela Round', sans-serif;
