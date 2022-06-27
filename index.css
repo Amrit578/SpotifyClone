@@ -6,14 +6,18 @@ body{
     background-color: antiquewhite;
 }
 header{
+    position: sticky;
     background-color: black;
+    width: 100%;
     padding: 5px;
+    z-index: 1;
 }
 nav ul {
    display: flex;
     list-style: none;
     align-items: center;
     color: white;
+    
 }
 nav ul li{
     padding: 0 12px;
